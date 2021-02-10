@@ -25,7 +25,7 @@
 }
 
 .butnStyle{
-    border-width: 1px;
+    border-width: 0px;
     font-family: Arial;
     font-style: normal;
     font-size: medium;
@@ -94,6 +94,7 @@
       color: #333333;
       margin-left: 2%;
       margin-top: 5%;
+      text-decoration: none;
   }
 
   .rightLink{
@@ -101,11 +102,13 @@
       color: #333333;
       margin-right: 3%;
       margin-top: 5%;
+      text-decoration: none;
   }
 
   .centerLink{
       text-align: center;
       color: #333333;
+      text-decoration: none;
   }
 
 .RadAjaxPanel {
