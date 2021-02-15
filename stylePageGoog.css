@@ -1,8 +1,4 @@
 ﻿
-.red-text
-{
-    color: red;
-}
 
 .inputTextStyle{
     width: 520px;
@@ -18,11 +14,18 @@
     border-color: #dbd7d7;
 }
 
-#txtGgle:hover{
+#txtGgle:hover {
     box-shadow:  1.5px 1.5px 2px 2px #e2e1e6;
     border-radius: 19px;
     border-width: 1px;
     border-color: #e2e1e6;
+}
+
+#txtGgle:focus {
+    border-color: #e2e1e6;
+    border-radius: 19px;
+    border-width: 1px;
+    outline: none;
 }
 
 .butnStyle{
@@ -41,6 +44,10 @@ button:hover {
     border-width: 1px;
   }
 
+button:focus {
+    outline: none;
+}
+
 A:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -48,6 +55,8 @@ A:hover {
 
 .imgStyle{
     margin: 10px;
+    height: 100px;
+    width: 250px;
 }
 
 .centered{
@@ -57,11 +66,13 @@ A:hover {
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
   width: 540px;
+  border-width: 0px;
 }
 
 .divCntr{
     display: flex;
     justify-content: center;
+    border-width: 0px;
 }
 
   .Wrap{
