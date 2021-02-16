@@ -56,16 +56,15 @@ A:hover {
 }
 
 .imgStyle{
-    margin: 10px;
+    margin: 5px;
     height: 100px;
     width: 250px;
 }
 
 .centered{
   position: fixed;
-  top: 35%;
+  top: 39%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
   width: 540px;
   border-width: 0px;
@@ -77,44 +76,29 @@ A:hover {
     border-width: 0px;
 }
 
-  .Wrap{
-      padding: 1.3%;
-  }
-
   .footerLeft {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 50%;
+    width: 100%;
     height: 40px;
     background-color: #dddddd;
-    text-align: left;
   }
 
-  .footerRight {
-      position: fixed;
-      left: 50%;
-      bottom: 0;
-      width: 50%;
-      height: 40px;
-      background-color: #dddddd;
-      text-align: right;
-    }
-
   .leftLink{
-    text-align: left;
+    position: relative;
       color: #333333;
-      margin-left: 2%;
-      margin-top: 5%;
+      margin: 4px;
       text-decoration: none;
+      float: left;
   }
 
   .rightLink{
-      text-align: right;
+    position: relative;
       color: #333333;
-      margin-right: 3%;
-      margin-top: 5%;
+      margin: 6px;
       text-decoration: none;
+      float: right;
   }
 
 
