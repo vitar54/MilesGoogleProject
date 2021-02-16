@@ -26,6 +26,7 @@
     border-radius: 19px;
     border-width: 1px;
     outline: none;
+    padding: 16px;
 }
 
 .butnStyle{
@@ -81,32 +82,31 @@ A:hover {
   }
 
   .footerLeft {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 40px;
+    background-color: #dddddd;
+    text-align: left;
+  }
+
+  .footerRight {
       position: fixed;
-      left: 0;
+      left: 50%;
       bottom: 0;
       width: 50%;
       height: 40px;
       background-color: #dddddd;
-      text-align: left;
+      text-align: right;
     }
 
-    .footerRight {
-        position: fixed;
-        left: 50%;
-        bottom: 0;
-        width: 50%;
-        height: 40px;
-        background-color: #dddddd;
-        text-align: right;
-      }
-
   .leftLink{
-      text-align: left;
+    text-align: left;
       color: #333333;
       margin-left: 2%;
       margin-top: 5%;
       text-decoration: none;
-      
   }
 
   .rightLink{
@@ -121,22 +121,5 @@ A:hover {
 
 
 /*
-
-    .footer {
-    position: fixed;
-    left: 34%;
-    bottom: 0;
-    width: 32%;
-    height: 40px;
-    background-color: #dddddd;
-    text-align: center;
-  }
-
-  .centerLink{
-      text-align: center;
-      color: #333333;
-      text-decoration: none;
-  }
-
 
 */
